@@ -53,16 +53,25 @@ def main():
     
     result1=(3*x-9*y)/(2*a*(b-c))
     
-    print("x =",x)
-    print("y =",y)
-    print("a =",a)
-    print("b =",b)
-    print("c =",c)
-    print("result =", result1)
+    print("Part 1: x =",x)   #do we need to do print("Part 1: x=", x)
+    print("Part 1: y =",y)
+    print("Part 1: a =",a)
+    print("Part 1: b =",b)
+    print("Part 1: c =",c)
+    print("Part 1: result =", result1)
+    # End of Part 1 ----------------------
     
     # Part 2: Power
     # =============================================
     # Your code for part 2 under this line and before the print statements
+    x=5
+    y=-3
+    
+    result2=x**2*y**4
+    
+    print("Part 2: x =",x)
+    print("Part 2: y =",y)
+    print("Part 2: result =",result2)
 
     # End of Part 2 ----------------------
 
